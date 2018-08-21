@@ -1,9 +1,9 @@
 ---
 applications:
-- name: react-service
+- name: calculator-react
   memory: 1024MB
   instances: 1
-  host: react-service-dev
+  host: calculator-react-service
   domains:
   - apps.wdc-np.itcna.vmware.com
   timeout: 600
